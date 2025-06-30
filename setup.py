@@ -19,7 +19,6 @@ REQUIRED_PACKAGES = [
     "lvis",
     "scipy",
     "pandas",
-    "tf-models-official>=2.8.0",
     "tensorflow_io",
     "keras",
     "pyparsing==2.4.7",  # TODO(b/204103388)
