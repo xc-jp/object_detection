@@ -7,19 +7,16 @@ from setuptools import find_packages, setup
 REQUIRED_PACKAGES = [
     # Required for apache-beam with PY3
     "avro-python3",
-    "apache-beam",
     "pillow",
     "lxml",
     "matplotlib",
     "Cython",
     "contextlib2",
-    "tf-slim",
     "six",
     "pycocotools",
     "lvis",
     "scipy",
     "pandas",
-    "tensorflow_io",
     "keras",
     "pyparsing==2.4.7",  # TODO(b/204103388)
     "sacrebleu<=2.2.0",  # https://github.com/mjpost/sacrebleu/issues/209
