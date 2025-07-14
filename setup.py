@@ -7,11 +7,13 @@ from setuptools import find_packages, setup
 REQUIRED_PACKAGES = [
     # Required for apache-beam with PY3
     "avro-python3",
+    "apache-beam",
     "pillow",
     "lxml",
     "matplotlib",
     "Cython",
     "contextlib2",
+    "tf-slim",
     "six",
     "pycocotools",
     "lvis",
